@@ -9,7 +9,7 @@ html, body {
    justify-content: space-around;
    width: 95vw;
    height: 90vh;
-   padding: 20px;
+   padding: 20px 20px 40px;
    margin: 10px auto;
    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
    background-color: #706c6c;
