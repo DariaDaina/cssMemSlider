@@ -10,7 +10,7 @@ html, body {
    width: 95vw;
    height: 90vh;
    padding: 20px;
-   margin: 0 auto;
+   margin: 10px auto;
    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
    background-color: #706c6c;
 }
@@ -87,14 +87,17 @@ html, body {
 
 .carousel-indicators li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0;
 }
 
 .carousel-bullet {
     color: #000000;
     cursor: pointer;
+    text-align: center;
     display: block;
-    font-size: 35px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 50px;
 }
 
 .carousel-bullet:hover {
@@ -105,5 +108,5 @@ html, body {
 #carousel-2:checked ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-4:checked ~ .carousel-indicators li:nth-child(4) .carousel-bullet {
-    color: #428bca;
+    color: #d854ac;
 }
